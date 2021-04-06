@@ -1,0 +1,92 @@
+﻿
+ html{
+      margin:0px;
+      padding:0px;
+      max-width:1200px;
+      margin: auto;
+    }
+    
+    body{
+    }
+    
+    .titulo{
+      width:100%;
+      height:40px;
+      line-height:0px;
+      border: 1px solid black;
+      background: #595959;
+      color:white;
+      text-align:center;
+      padding:15px;
+    }
+    
+    .footer{
+      width:100%;
+      line-height:0px;
+      border: 1px solid black;
+      background: #595959;
+      color:white;
+      text-align:center;
+      padding:15px;
+      margin-top:20px
+    }
+    
+    .intro{
+      margin: 20px 0px 20px 0px;
+    }
+    
+    .img{
+      float: left;
+      margin-right: 20px
+    }
+      
+      .logoHome{
+        width:60px;
+        cursor:pointer;
+      }
+      
+      .logoHome:hover{
+        transform:scale(1.25);
+      }
+      
+      .divImage{
+        text-align:center;
+      }
+    
+    .menu {
+      text-align: center;
+      padding: 0
+      display: inline-flex;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+    
+    .menu li {
+      display: inline-block;
+        margin-left: 25px;
+        font-weight: bold;
+    }
+      
+      
+      .menu li:hover{
+        transform:scale(1.10);
+      }
+    
+      .menu li a{
+        text-decoration:none;
+        color:#56bcf9;
+      }
+      
+    .linea{
+      width:50%;
+    }
+    
+    .lineaLimpia{
+      clear:both;
+      margin-top: 20px;
+    }
+    
+    
+    .contacto{
+      list-style-type: square;
+    }
